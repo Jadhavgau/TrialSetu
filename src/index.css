@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Newsreader", Georgia, Cambria, serif;
+  --font-sans: "Public Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "IBM Plex Mono", Menlo, Monaco, Consolas, monospace;
+
+  --color-forest: #1F3A34;
+  --color-forest-dark: #152723;
+  --color-forest-light: #2c524a;
+  --color-forest-50: #f2f7f5;
+  --color-forest-100: #e2edea;
+
+  --color-turmeric: #C2801F;
+  --color-turmeric-light: #df9729;
+  --color-turmeric-50: #fdf8ed;
+  --color-turmeric-100: #fceed2;
+
+  --color-brick: #A23A2C;
+  --color-brick-light: #c24635;
+  --color-brick-50: #fbf2f1;
+  --color-brick-100: #f6dedb;
+
+  --color-paper: #FBFCFA;
+}
+
+body {
+  font-family: "Public Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: #FBFCFA;
+  color: #1e293b;
+}
+
+.font-heading {
+  font-family: "Newsreader", Georgia, Cambria, serif;
+}
+
+.font-code {
+  font-family: "IBM Plex Mono", Menlo, Monaco, Consolas, monospace;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

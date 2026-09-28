@@ -1,0 +1,6 @@
+{
+  "name": "TrialSetu - Clinical Trial Management System",
+  "description": "Production CTMS frontend prototype with robust authentication, role-based access control (RBAC), and 8 dedicated portals for AIIA clinical research stakeholders.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
